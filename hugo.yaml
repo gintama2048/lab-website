@@ -1,11 +1,10 @@
 ﻿baseURL: "https://gintama2048.github.io/lab-website/"
 title: "实验室主页"
 theme: "PaperMod"
-
 defaultContentLanguage: "zh"
-defaultContentLanguageInSubdir: false
 
 params:
+  env: production
   assets:
     disableFingerprinting: true
 
