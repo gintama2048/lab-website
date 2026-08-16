@@ -5,6 +5,10 @@ theme: "PaperMod"
 defaultContentLanguage: "zh"
 defaultContentLanguageInSubdir: false
 
+params:
+  assets:
+    disableFingerprinting: true
+
 languages:
   zh:
     languageName: "中文"
