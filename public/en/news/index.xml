@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>News on Lab Name</title>
-    <link>http://localhost:1313/en/news/</link>
+    <link>//localhost:1313/en/news/</link>
     <description>Recent content in News on Lab Name</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/en/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab Website Launched</title>
-      <link>http://localhost:1313/en/news/2026-08-welcome/</link>
+      <link>//localhost:1313/en/news/2026-08-welcome/</link>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/news/2026-08-welcome/</guid>
+      <guid>//localhost:1313/en/news/2026-08-welcome/</guid>
       <description>&lt;p&gt;Welcome to our newly launched official bilingual laboratory website.&lt;/p&gt;</description>
     </item>
   </channel>
