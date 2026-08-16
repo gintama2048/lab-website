@@ -1,6 +1,8 @@
 ﻿baseURL: "https://gintama2048.github.io/lab-website/"
 title: "Lab Website"
 theme: "PaperMod"
+relativeURLs: true
+canonifyURLs: false
 
 defaultContentLanguage: "zh"
 defaultContentLanguageInSubdir: false
