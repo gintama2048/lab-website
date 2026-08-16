@@ -1,4 +1,4 @@
-baseURL: "https://example.org/"
+﻿baseURL: "https://gintama2048.github.io/lab-website/"
 title: "Lab Website"
 theme: "PaperMod"
 
@@ -12,27 +12,27 @@ languages:
     title: "实验室主页"
     params:
       homeInfoParams:
-        Title: "实验室名称"
-        Content: "欢迎访问实验室官方主页。"
+        Title: "智能系统与计算实验室"
+        Content: "欢迎访问实验室官方主页。我们致力于分布式系统与前沿算法研究。"
     menu:
       main:
         - name: "研究方向"
-          url: "/research/"
+          url: "research/"
           weight: 10
         - name: "团队成员"
-          url: "/members/"
+          url: "members/"
           weight: 20
         - name: "学术成果"
-          url: "/publications/"
+          url: "publications/"
           weight: 30
         - name: "新闻动态"
-          url: "/news/"
+          url: "news/"
           weight: 40
         - name: "资源下载"
-          url: "/resources/"
+          url: "resources/"
           weight: 50
         - name: "加入我们"
-          url: "/join/"
+          url: "join/"
           weight: 60
 
   en:
@@ -41,25 +41,25 @@ languages:
     title: "Lab Name"
     params:
       homeInfoParams:
-        Title: "Lab Name"
-        Content: "Welcome to our laboratory homepage."
+        Title: "Intelligent Systems Lab"
+        Content: "Welcome to our laboratory homepage. We focus on distributed systems and cutting-edge algorithms."
     menu:
       main:
         - name: "Research"
-          url: "/en/research/"
+          url: "en/research/"
           weight: 10
         - name: "Members"
-          url: "/en/members/"
+          url: "en/members/"
           weight: 20
         - name: "Publications"
-          url: "/en/publications/"
+          url: "en/publications/"
           weight: 30
         - name: "News"
-          url: "/en/news/"
+          url: "en/news/"
           weight: 40
         - name: "Resources"
-          url: "/en/resources/"
+          url: "en/resources/"
           weight: 50
         - name: "Join Us"
-          url: "/en/join/"
+          url: "en/join/"
           weight: 60
