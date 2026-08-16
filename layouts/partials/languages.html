@@ -1,0 +1,22 @@
+﻿{{- if .Site.IsMultiLingual }}
+<ul class="lang-switch">
+    {{- $currentPage := . }}
+    {{- range .Site.Languages }}
+    {{- if ne $.Site.Language.Lang .Lang }}
+    <li>
+        {{- $link := .Lang | relURL }}
+        {{- /* 检查当前页面是否存在对应语言的翻译版本 */}}
+        {{- range $currentPage.Translations }}
+            {{- if eq .Language.Lang $.Lang }}
+                {{- $link = .RelPermalink }}
+            {{- end }}
+        {{- end }}
+        <a href="{{ $link }}" title="{{ .LanguageName | default .Lang }}"
+            aria-label="{{ .LanguageName | default .Lang }}">
+            {{- .LanguageName | default .Lang }}
+        </a>
+    </li>
+    {{- end }}
+    {{- end }}
+</ul>
+{{- end }}
